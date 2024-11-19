@@ -1,0 +1,23 @@
+body {
+    background-color: #11120D;
+    font-family: monospace;
+}
+
+.intro {
+    border-right: .1em solid;
+    color: white;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2.2s steps(19),
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+@keyframes cursor {
+    50% { border-color: transparent; }
+}
