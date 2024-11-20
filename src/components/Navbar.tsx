@@ -9,7 +9,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className=" w-full p-2 ml-auto mr-auto fixed top-0 bg-#11120D backdrop-blur  border-b-[.5px] border-[#3A3B3C] flex justify-between ">
+            <nav className=" w-full p-2 ml-auto mr-auto fixed top-0 backdrop-blur  border-b-[.08em] border-[#3A3B3C] flex justify-between ">
 
                 <div className="h-12 items-center px-4  flex gap-4">
                     <h3 className="text-white text-xl dark:text-white font-bold ">Daylen</h3>

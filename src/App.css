@@ -1,7 +1,29 @@
 body {
-    background-color: #11120D;
+    background: #11120D;
     font-family: monospace;
 }
+
+body:before {
+    content: ' ';
+    background-image: url(./assets/grid.svg);
+    background-repeat: repeat;
+    position: absolute;
+    inset: 0;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+    pointer-events: none
+}
+
+#tech-logos {
+    width: 4em;
+    height: 4em;
+}
+
+
+
+
+
 
 .intro {
     border-right: .1em solid;
@@ -10,9 +32,25 @@ body {
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 2.2s steps(19),
+        typing 1s steps(19),
         cursor .4s step-end infinite alternate;
 }
+
+.grid-box {
+    border: .08em solid #3A3B3C ;
+    border-radius: .5em;
+
+}
+
+.description {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 
 @keyframes typing {
     from {width: 0}
