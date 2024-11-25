@@ -19,7 +19,7 @@ body:before {
     position: absolute;
     inset: 0;
     width: 100%;
-    height: 245vh;
+    height: 300vh;
     opacity: .2;
     pointer-events: none;
     z-index: -2;
