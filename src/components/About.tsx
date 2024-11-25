@@ -1,4 +1,5 @@
 import CopyButton from './CopyButton'
+import me from "src/assets/me.png"
 
 function About() {
     return (
@@ -11,7 +12,7 @@ function About() {
                         <div className="flex flex-row max-lg:flex-col items-center">
 
                             <img className="h-[14em] w-[12em] rounded-3xl mt-4 max-lg:h-[12em] max-lg:w-[10em]" alt="picture of me"
-                                 src="../../public/assets/me.png"/>
+                                 src={me}/>
                             <p className="text-white text-center p-3 max-lg:text-xs">My fascination with computers began at 14
                                 when I built a
                                 simple clock app using Python with a book and YouTube tutorials. Since then, I’ve
