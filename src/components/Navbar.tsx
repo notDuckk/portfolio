@@ -1,3 +1,6 @@
+import gh from "/src/assets/github.svg"
+import link from "/src/assets/linkedin.svg"
+
 
 function Navbar() {
     const scrollToSection = (sectionId: string):void => {
@@ -20,10 +23,10 @@ function Navbar() {
                 </div>
                 <div className="h-12 flex items-center gap-4 px-4 flex-shrink-0">
                     <a href="https://github.com/notDuckk" target="_blank">
-                        <img alt="github link" className="h-5 w-5  " src={"src/assets/github.svg"}/>
+                        <img alt="github link" className="h-5 w-5  " src={gh}/>
                     </a>
                     <a href="https://www.linkedin.com/in/daylen-francis-bb9090258/" target="_blank">
-                        <img alt="linkedin link" className="h-5 w-5 " src={"src/assets/linkedin.svg"}/>
+                        <img alt="linkedin link" className="h-5 w-5 " src={link}/>
                     </a>
                     <a href="https://drive.google.com/uc?export=download&id=12pqhri5uLcugCMBfjjPlZZvMPMj741Wt" download="dfranRes.pdf" className="border-[1px] p-2 rounded-sm text-white border-white">
                         Resume

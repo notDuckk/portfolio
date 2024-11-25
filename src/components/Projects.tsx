@@ -1,5 +1,22 @@
 import {useState} from "react";
 
+import js from "/src/assets/javascript.svg";
+import ts from "/src/assets/typescript.svg";
+import node from "/src/assets/nodejs.svg";
+import express from "/src/assets/express-js.svg";
+import react from "/src/assets/react.svg";
+import tw from "/src/assets/tailwind.svg";
+import java from "/src/assets/java.svg";
+import aws from "/src/assets/aws.svg";
+import docker from "/src/assets/docker.svg";
+import git from "/src/assets/git-logo.svg";
+import spring from "/src/assets/spring-boot.svg";
+import python from "/src/assets/python.svg";
+import weather from "/src/assets/weatherwiz.png";
+import convert from "/src/assets/converthub.png";
+import share from "/src/assets/sharespace.png";
+
+
 function Projects() {
 
     const[currentProj, setCurrentProj] = useState(0);
@@ -8,19 +25,19 @@ function Projects() {
         {
             title: "WeatherWiz",
             description: "Weather app using Open Weather Map API displaying information based on the zip code",
-            image: "public/assets/weatherwiz.png",
+            image: weather,
             technologies: ["Javascript","Bootstrap","HTML","CSS"]
         },
         {
             title: "ConvertHub",
             description: "Currency converter app using Free Currency API allows users convert currency and store their favorites",
-            image: "src/assets/converthub.png",
+            image: convert,
             technologies: ["Javascript","Bootstrap","HTML","CSS",]
         },
         {
             title: "ShareSpace",
             description: "A Twitter clone currently in progress as part of a group project. This project is still under development.",
-            image: "src/assets/sharespace.png",
+            image: share,
             technologies: ["Javascript","HTML","CSS"]
         }
     ]
@@ -33,6 +50,7 @@ function Projects() {
         setCurrentProj((prev)=>(prev - 1 + projects.length) % projects.length);
     }
 
+
     return (
         <>
             <section id={"projects"} className="w-full flex flex-col items-center justify-center">
@@ -41,18 +59,18 @@ function Projects() {
                     <div className="grid-box row-span-2 p-5  ">
                         <h2 className="text-white text-xl max-lg:text-lg">// Technology I work with</h2>
                         <div className="grid grid-cols-4 gap-4 mt-4 justify-items-center">
-                            <img src={"public/assets/javascript.svg"} alt={"javascript logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/typescript.svg"} alt={"typescript logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/nodejs.svg"} alt={"node js logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/express-js.svg"} alt={"express js logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/react.svg"} alt={"react logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/tailwind.svg"} alt={"tailwind logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/java.svg"} alt={"java logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/aws.svg"} alt={"aws logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/docker.svg"} alt={"docker logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/git-logo.svg"} alt={"git logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/spring-boot.svg"} alt={"spring boot logo"} id={"tech-logos"}/>
-                            <img src={"src/assets/python.svg"} alt={"python logo"} id={"tech-logos"}/>
+                            <img src={js} alt={"javascript logo"} id={"tech-logos"}/>
+                            <img src={ts} alt={"typescript logo"} id={"tech-logos"}/>
+                            <img src={node} alt={"node js logo"} id={"tech-logos"}/>
+                            <img src={express} alt={"express js logo"} id={"tech-logos"}/>
+                            <img src={react} alt={"react logo"} id={"tech-logos"}/>
+                            <img src={tw} alt={"tailwind logo"} id={"tech-logos"}/>
+                            <img src={java} alt={"java logo"} id={"tech-logos"}/>
+                            <img src={aws} alt={"aws logo"} id={"tech-logos"}/>
+                            <img src={docker} alt={"docker logo"} id={"tech-logos"}/>
+                            <img src={git} alt={"git logo"} id={"tech-logos"}/>
+                            <img src={spring} alt={"spring boot logo"} id={"tech-logos"}/>
+                            <img src={python} alt={"python logo"} id={"tech-logos"}/>
 
 
                         </div>

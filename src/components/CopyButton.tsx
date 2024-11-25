@@ -1,4 +1,5 @@
 import { useState } from "react";
+import copy from "/src/assets/copybutton.png"
 
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -21,7 +22,7 @@ const CopyButton = ({ textToCopy }) => {
             <button
                 onClick={handleCopy}
             >
-                <img src={"/public/assets/copybutton.png"} alt={"copy button"} className={`w-6 h-6 transition-opacity duration-300 ${
+                <img src={copy} alt={"copy button"} className={`w-6 h-6 transition-opacity duration-300 ${
                     copied ? "opacity-50" : "opacity-100"
                 }`}
                 />
