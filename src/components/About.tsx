@@ -1,5 +1,5 @@
 import CopyButton from './CopyButton'
-import me from "src/assets/me.png"
+import me from "/src/assets/me.png"
 
 function About() {
     return (
