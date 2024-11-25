@@ -6,7 +6,7 @@ function Footer() {
                     <p className="text-white text-xs max-md:text-[.60em]">2024 - Nothin' reserved</p>
                 </div>
                 <div>
-                    <p className="text-white text-xs max-lg:text-[.60em]">Built with React, tailwind (add deploy serv)</p>
+                    <p className="text-white text-xs max-lg:text-[.60em]">Built with React & Tailwind</p>
                 </div>
             </div>
         </>

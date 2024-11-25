@@ -1,8 +1,10 @@
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
+    padding: 0;
+    display: flex;
 }
-
 
 
 body {
@@ -32,6 +34,8 @@ body:before {
 
 
 .intro {
+    display: flex;
+    justify-content: center;
     border-right: .1em solid;
     color: white;
     width: 100%;
@@ -42,7 +46,6 @@ body:before {
         cursor .4s step-end infinite alternate;
 }
 
-@media
 
 img {
     opacity: 1;
