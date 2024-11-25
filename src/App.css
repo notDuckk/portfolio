@@ -14,7 +14,7 @@ body {
 
 body:before {
     content: ' ';
-    background-image: url(./assets/grid.svg);
+    background-image: url(../public/assets/grid.svg);
     background-repeat: repeat;
     position: absolute;
     inset: 0;

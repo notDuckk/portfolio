@@ -11,7 +11,7 @@ function About() {
                         <div className="flex flex-row max-lg:flex-col items-center">
 
                             <img className="h-[14em] w-[12em] rounded-3xl mt-4 max-lg:h-[12em] max-lg:w-[10em]" alt="picture of me"
-                                 src="src/assets/me.png"/>
+                                 src="../../public/assets/me.png"/>
                             <p className="text-white text-center p-3 max-lg:text-xs">My fascination with computers began at 14
                                 when I built a
                                 simple clock app using Python with a book and YouTube tutorials. Since then, I’ve
