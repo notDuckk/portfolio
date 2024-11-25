@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
 const CopyButton = ({ textToCopy }) => {
@@ -20,7 +21,7 @@ const CopyButton = ({ textToCopy }) => {
             <button
                 onClick={handleCopy}
             >
-                <img src={"src/assets/copybutton.png"} alt={"copy button"} className={`w-6 h-6 transition-opacity duration-300 ${
+                <img src={"/public/assets/copybutton.png"} alt={"copy button"} className={`w-6 h-6 transition-opacity duration-300 ${
                     copied ? "opacity-50" : "opacity-100"
                 }`}
                 />

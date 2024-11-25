@@ -41,7 +41,7 @@ function Projects() {
                     <div className="grid-box row-span-2 p-5  ">
                         <h2 className="text-white text-xl max-lg:text-lg">// Technology I work with</h2>
                         <div className="grid grid-cols-4 gap-4 mt-4 justify-items-center">
-                            <img src={"src/assets/javascript.svg"} alt={"javascript logo"} id={"tech-logos"}/>
+                            <img src={"/public/assets/javascript.svg"} alt={"javascript logo"} id={"tech-logos"}/>
                             <img src={"src/assets/typescript.svg"} alt={"typescript logo"} id={"tech-logos"}/>
                             <img src={"src/assets/nodejs.svg"} alt={"node js logo"} id={"tech-logos"}/>
                             <img src={"src/assets/express-js.svg"} alt={"express js logo"} id={"tech-logos"}/>
