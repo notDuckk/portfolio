@@ -1,6 +1,5 @@
 html, body {
     height: 100%;
-    width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,20 +7,18 @@ html, body {
 
 
 body {
-    min-height: 100vh;
     background: #11120D;
     font-family: monospace;
 
 }
 
 body:before {
-    content: ' ';
+    content: '';
     background-image: url(assets/grid.svg);
     background-repeat: repeat;
-    position: absolute;
+    position: fixed;
     inset: 0;
     width: 100%;
-    height: auto;
     opacity: .2;
     pointer-events: none;
     z-index: -2;
