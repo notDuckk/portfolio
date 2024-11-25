@@ -36,7 +36,6 @@ body:before {
 .intro {
     display: inline-block;
     justify-content: center;
-
     border-right: .1em solid;
     color: white;
     width: 100%;
