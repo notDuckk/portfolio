@@ -1,15 +1,13 @@
 function Intro() {
     return (
         <>
-            <section className="m-60 text-3xl justify-self-center justify-items-center">
-                <div className="inline-block">
-                    <h2 className="intro">Hello my name is Daylen.</h2>
-                        {/*<p className="text-sm text-center text-[#636363]">SOFTWARE DEVELOPER</p>*/}
+            <section className="justify-self-center justify-items-center   ">
+                <div className="inline-block ">
+                    <h2 className="mt-[45vh] intro text-3xl max-md:text-xl ">Hello my name is Daylen.</h2>
                 </div>
-                <div className="flex justify-center container w-1/2 ">
-                    <p className="description text-white text-sm">
-                        sentence
-                    </p>
+                <div className="mb-[40vh] flex justify-center container  max-xl:w-11/12 ">
+                    <p className="description text-white text-sm ">
+                        // fullstack developer with a focus in backend development in Wilmington, NC.</p>
                 </div>
             </section>
         </>
