@@ -12,15 +12,15 @@ function Navbar() {
             <nav className=" w-full p-2 ml-auto mr-auto fixed top-0 backdrop-blur  border-b-[.08em] border-[#3A3B3C] flex justify-between ">
 
                 <div className="h-12 items-center px-4  flex gap-4">
-                    <h3 className="text-white text-xl dark:text-white font-bold ">Daylen</h3>
-                    <div className="flex items-center gap-4 max-md:invisible ">
+                    <h3 className="text-white text-xl font-bold ">Daylen</h3>
+                    <div className="flex items-center gap-4 max-md:hidden ">
                     <button onClick={() => scrollToSection("about")} className="text-white text-base ">// about</button>
                     <button onClick={() => scrollToSection("projects")} className="text-white text-base">// projects</button>
                     </div>
                 </div>
-                <div className="h-12 flex items-center gap-4 px-4">
+                <div className="h-12 flex items-center gap-4 px-4 flex-shrink-0">
                     <a href="https://github.com/notDuckk" target="_blank">
-                        <img alt="github link" className="h-5 w-5 max-lg:w-5  " src={"src/assets/github.svg"}/>
+                        <img alt="github link" className="h-5 w-5  " src={"src/assets/github.svg"}/>
                     </a>
                     <a href="https://www.linkedin.com/in/daylen-francis-bb9090258/" target="_blank">
                         <img alt="linkedin link" className="h-5 w-5 " src={"src/assets/linkedin.svg"}/>
