@@ -2,7 +2,7 @@ function Intro() {
     return (
         <>
             <section className="flex flex-col justify-center  items-center h-screen text-center ">
-                <div>
+                <div className="inline-block">
                     <h2 className="intro text-3xl max-md:text-xl ">Hello my name is Daylen.</h2>
                 </div>
                 <div className=" w-11/12">

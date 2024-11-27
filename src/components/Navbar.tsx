@@ -1,7 +1,6 @@
 import gh from "/src/assets/github.svg"
 import link from "/src/assets/linkedin.svg"
 
-
 function Navbar() {
     const scrollToSection = (sectionId: string):void => {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -28,7 +27,7 @@ function Navbar() {
                     <a href="https://www.linkedin.com/in/daylen-francis-bb9090258/" target="_blank">
                         <img alt="linkedin link" className="h-5 w-5 " src={link}/>
                     </a>
-                    <a href="https://drive.google.com/uc?export=download&id=12pqhri5uLcugCMBfjjPlZZvMPMj741Wt" download="dfranRes.pdf" className="border-[1px] p-2 rounded-sm text-white border-white">
+                    <a href="https://drive.google.com/u/0/uc?id=1jv0uNaZuh7jc1mXbLz5pfWgo_agQMaz1&export=download" download="dfranres.pdf" className="flex items-center border-[1px] p-2 rounded-sm text-white border-white">
                         Resume
                     </a>
                     {/*<a href="https://monkeytype.com/profile/notDuc" target="_blank">*/}
