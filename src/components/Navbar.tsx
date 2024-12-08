@@ -27,9 +27,13 @@ function Navbar() {
                     <a href="https://www.linkedin.com/in/daylen-francis-bb9090258/" target="_blank">
                         <img alt="linkedin link" className="h-5 w-5 " src={link}/>
                     </a>
-                    <a href="https://drive.google.com/u/0/uc?id=1jv0uNaZuh7jc1mXbLz5pfWgo_agQMaz1&export=download" download="dfranres.pdf" className="flex items-center border-[1px] p-2 rounded-sm text-white border-white">
+                    {/*TODO add resume link*/}
+
+                    <a href="https://drive.google.com/u/0/uc?id=1F7Xa7AkkshYkZFnOBx85ppc2pDH0jPGu&export=download" download="dfranres.pdf" className="flex items-center border-[1px] p-2 rounded-sm text-white border-white">
                         Resume
                     </a>
+
+
                     {/*<a href="https://monkeytype.com/profile/notDuc" target="_blank">*/}
                     {/*    <img className="h-5 w-5 " src={"https://raw.githubusercontent.com/monkeytype-hub/monkeytype-icon/master/monkeytype-icon/logo-svg/alpine.svg"}/>*/}
                     {/*</a>*/}

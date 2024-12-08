@@ -15,7 +15,13 @@ import python from "/src/assets/python.svg";
 import weather from "/src/assets/weatherwiz.png";
 import convert from "/src/assets/converthub.png";
 import share from "/src/assets/sharespace.png";
-
+import pos from "/src/assets/pos.png";
+import sql from "/src/assets/sql.svg";
+import postgres from "/src/assets/postgres.svg";
+import tableau from "/src/assets/tableau.svg";
+import bootstrap from "/src/assets/bootstrap.svg";
+import junit from "/src/assets/junit.svg";
+import sqlite from "/src/assets/sqlite.svg";
 
 function Projects() {
 
@@ -24,22 +30,29 @@ function Projects() {
     const projects = [
         {
             title: "WeatherWiz",
-            description: "Weather app using Open Weather Map API displaying information based on the zip code",
+            description: "I built a responsive weather app using JavaScript, Bootstrap, and the OpenWeather API, allowing users to get current weather information by entering a ZIP code. The app features a clean UI and dynamic updates for an intuitive user experience.",
             image: weather,
             technologies: ["Javascript","Bootstrap","HTML","CSS"]
         },
         {
+            title: "POS System",
+            description: "I collaborated with three others in an Agile environment to build a Java-based POS system using SQLite and JDBC, featuring user login, order creation, and end-of-day sales reports. Tasks were managed using tickets and user stories for efficient development.",
+            image: pos,
+            technologies: ["Java","SQLite","JDBC","JUnit"]
+        },
+        {
             title: "ConvertHub",
-            description: "Currency converter app using Free Currency API allows users convert currency and store their favorites",
+            description: "I created a currency converter using JavaScript, Bootstrap, HTML, and CSS, enabling users to seamlessly convert between different currencies. The app features a responsive design and real-time rate updates for accurate conversions.",
             image: convert,
             technologies: ["Javascript","Bootstrap","HTML","CSS",]
         },
         {
             title: "ShareSpace",
-            description: "A Twitter clone currently in progress as part of a group project. This project is still under development.",
+            description: "I am collaborating on a Twitter clone using JavaScript, HTML, and CSS as part of a group project. The app is currently in development, focusing on core features like posting and responsive design.",
             image: share,
             technologies: ["Javascript","HTML","CSS"]
-        }
+        },
+
     ]
 
     const handleNext = ()=>{
@@ -61,26 +74,30 @@ function Projects() {
                         <div className="grid grid-cols-4 gap-4 mt-4 justify-items-center">
                             <img src={js} alt={"javascript logo"} id={"tech-logos"}/>
                             <img src={ts} alt={"typescript logo"} id={"tech-logos"}/>
-                            <img src={node} alt={"node js logo"} id={"tech-logos"}/>
-                            <img src={express} alt={"express js logo"} id={"tech-logos"}/>
                             <img src={react} alt={"react logo"} id={"tech-logos"}/>
                             <img src={tw} alt={"tailwind logo"} id={"tech-logos"}/>
+                            <img src={bootstrap} alt={"bootstrap logo"} id={"tech-logos"}/>
                             <img src={java} alt={"java logo"} id={"tech-logos"}/>
-                            <img src={aws} alt={"aws logo"} id={"tech-logos"}/>
-                            <img src={docker} alt={"docker logo"} id={"tech-logos"}/>
-                            <img src={git} alt={"git logo"} id={"tech-logos"}/>
                             <img src={spring} alt={"spring boot logo"} id={"tech-logos"}/>
                             <img src={python} alt={"python logo"} id={"tech-logos"}/>
-
+                            <img src={junit} alt={"junit"} id={"tech-logos"}/>
+                            <img src={express} alt={"express js logo"} id={"tech-logos"}/>
+                            <img src={node} alt={"node js logo"} id={"tech-logos"}/>
+                            <img src={aws} alt={"aws logo"} id={"tech-logos"}/>
+                            <img src={docker} alt={"docker logo"} id={"tech-logos"}/>
+                            <img src={sql} alt={"sql logo"} id={"tech-logo"}/>
+                            <img src={sqlite} alt={"sqlite logo"} id={"tech-logos"}/>
+                            <img src={postgres} alt={"postgres logo"} id={"tech-logos"}/>
+                            <img src={tableau} alt={"tableau logo"} id={"tech-logos"}/>
+                            <img src={git} alt={"git logo"} id={"tech-logos"}/>
 
                         </div>
-
 
 
                     </div>
                     <div className="grid-box col-span-2 max-lg:col-span-1  ">
                         <div className="flex justify-between ">
-                            <h2 className="text-white text-xl gap-4 pt-3 pl-3 flex-none max-lg:text-lg">// Projects</h2>
+                        <h2 className="text-white text-xl gap-4 pt-3 pl-3 flex-none max-lg:text-lg">// Projects</h2>
                             <div className="p-3 gap-4 items-center flex-none ">
                                 <button
                                     className="text-black p-2 text-xs rounded-sm m-1 bg-white  max-md:m-[.15rem] max-md:p-[.30rem]"
