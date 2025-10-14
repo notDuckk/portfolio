@@ -29,7 +29,7 @@ function Navbar() {
                     </a>
                     {/*TODO add resume link*/}
 
-                    <a href="https://drive.google.com/u/0/uc?id=1F7Xa7AkkshYkZFnOBx85ppc2pDH0jPGu&export=download" download="dfranres.pdf" className="flex items-center border-[1px] p-2 rounded-sm text-white border-white">
+                    <a href="https://drive.google.com/u/0/uc?id=1DlyuUHf08P5iWWGln8wFVRfiDZtM-PUm&export=download" download="dfranres.pdf" className="flex items-center border-[1px] p-2 rounded-sm text-white border-white">
                         Resume
                     </a>
 
